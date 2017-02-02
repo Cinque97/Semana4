@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JavaScript.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,6 +107,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pag1.html" />
+    <Content Include="Pag2.html" />
+    <Content Include="Style1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Semana4</title>
+	<meta charset="utf-8" />
+
+    
+    <script src=" JavaScript.js"></script> ">
+</head>
+<body>
+    <!--Area Cuadrado-->
+    <p>Area del Cuadrado</p>
+    <input id="txtsquare" type="number"/>
+    <input id="Button1" type="button" value="Calcular Area" onclick="document.getElementById('Practica').innerHTML = 'El area del cuadrado es: '+ Area_Cuadrado(txtsquare.value)" />
+    <br />
+    <!-- Area del Rectangulo -->
+    <p>Area del Rectangulo</p>
+    <input id="txtrectangulo1" type="number" />
+    <input id="txtrectangulo2" type="number" />
+    <input id="Button2" type="button" value="Calcular Area" onclick="document.getElementById('Practica').innerHTML = 'El area del rectangulo es: '+ Area_Rectangulo(txtrectangulo1.value,txtrectangulo2.value)" />
+    <br />
+    <!-- Area del Triangulo -->
+    <p>Area del Triangulo</p>
+    <input id="txt_triangulo1" type="number" />
+    <input id="txt_triangulo2" type="number" />
+    <input id="Button3" type="button" value="Calcular Area" onclick="document.getElementById('Practica').innerHTML = 'El area del triangulo es: ' + Area_Triangulo(txt_triangulo1.value,txt_triangulo2.value)" />
+    <br />
+    <!-- Area del Rombo -->
+    <p id="Practica"></p>
+</body>
+</html>
