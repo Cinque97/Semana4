@@ -97,8 +97,10 @@
     <Content Include="Acerca de.html" />
     <Content Include="Cursos.html" />
     <Content Include="Descargas.html" />
-    <Content Include="Imagenes\Ark.jpg" />
+    <Content Include="Imagenes\descarga.jpg" />
+    <Content Include="Imagenes\fondo-moderno-de-la-informtica-68613746.jpg" />
     <Content Include="Imagenes\Fondo1.jpg" />
+    <Content Include="Imagenes\orig_232421.jpg" />
     <Content Include="Objetivos.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
